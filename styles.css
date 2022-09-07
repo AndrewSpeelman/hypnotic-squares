@@ -1,0 +1,19 @@
+body {
+    background: #fff;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 560px;
+    --blur: 2px;
+}
+
+canvas {
+    box-shadow: inset 0 0 1px 0 rgba(0, 0, 0, 0.2);
+    height: 700px;
+    width: 700px;
+    background-size: cover;
+    background-position: center center;
+}
